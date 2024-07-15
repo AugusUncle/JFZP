@@ -1,0 +1,1 @@
+<view class="page"><view class="box"><image class="img" src="{{company.headPic}}"></image></view><view class="box"><view class="title">{{company.name}}</view></view><view><mp-html vue-id="247f4578-1" content="{{company.introduction}}" bind:__l="__l"></mp-html></view></view>

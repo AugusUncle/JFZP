@@ -1,0 +1,26 @@
+
+.page {
+	background-color: #FFFFFF;
+	height: 100vh;
+}
+.logo-view {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.logo {
+	width: 23.5vw;
+	height: 23.5vw;
+	margin-top: 6.6vh;
+}
+.list-view {
+	margin-top: 16.6vh;
+}
+.uni-list-item__content-title {
+	font-size: 14px;
+	color: #3b4144;
+	overflow: hidden;
+	margin: 1vh 0;
+}
+

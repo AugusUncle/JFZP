@@ -1,0 +1,1 @@
+<view class="page"><view><block wx:if="{{show1}}"><image style="width:100%;margin-top:5vh;" mode="aspectFit" src="https://jfzp.ykfly.com/jfht/app/营业执照.jpg"></image></block><block wx:if="{{show2}}"><image style="width:100%;margin-top:5vh;" mode="aspectFit" src="https://jfzp.ykfly.com/jfht/app/人力资源.jpg"></image></block></view></view>

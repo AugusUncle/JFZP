@@ -1,0 +1,24 @@
+
+.example {
+	padding: 15px;
+	background-color: #fff;
+}
+.btn-view {
+	display: flex;
+	flex-direction: row;
+}
+.submit {
+	margin-bottom: 10%;
+	width: 30%;
+	font-size: 16px;
+	color: white;
+	background-color: #38BDF8;
+	border-radius: 10px;
+}
+.btn {
+	background-color: #0EA5E9;
+	/* 点击后的颜色 */
+	color: #E5E5E5;
+	/* 点击后的文字颜色 */
+}
+

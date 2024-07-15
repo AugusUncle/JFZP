@@ -1,0 +1,32 @@
+
+.video {
+	width: 88%;
+	position: absolute;
+	top: 50%;
+	left: 6%;
+	border-radius: 10px;
+}
+.img{
+	width: 88%;
+	position: absolute;
+	top: 50%;
+	left: 6%;
+	border-radius: 10px;
+	height: 28%;
+}
+.btn {
+	width: 80%;
+	position: absolute;
+	top: 248%;
+	left: 10%;
+	border-radius: 10px;
+	background: white;
+}
+.back{
+	position: fixed;
+	top: 6%;
+	left: 4%;
+}
+
+
+

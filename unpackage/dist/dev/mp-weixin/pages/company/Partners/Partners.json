@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "page-back": "/components/page-back/page-back",
+    "u-read-more": "/uni_modules/uview-ui/components/u-read-more/u-read-more",
+    "u-parse": "/uni_modules/uview-ui/components/u-parse/u-parse"
+  }
+}

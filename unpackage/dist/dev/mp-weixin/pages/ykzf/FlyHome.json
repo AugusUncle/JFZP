@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "飞行员之家",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection",
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "page-back": "/components/page-back/page-back"
+  }
+}

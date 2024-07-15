@@ -1,0 +1,78 @@
+
+.select {
+	display: flex;
+	flex-direction: row;
+	margin: 0 0 2% 0;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index:99;
+	background-color: white;
+}
+.select-item {
+	width: auto;
+	height: 24px;
+	background-color: #F7F7F7;
+	margin: 1% auto;
+	font-size: 12px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 4px;
+}
+.select image {
+	/* position: relative;
+	right: 20%; */
+}
+.box1 {
+	width: 20%;
+	position: absolute;
+	z-index: 999;
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	left: 3%;
+	min-height: 100px;
+	max-height: 300px;
+	border-radius: 10px;
+}
+.box2 {
+	width: 30%;
+	position: absolute;
+	z-index: 999;
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	left: 24%;
+	min-height: 100px;
+	max-height: 300px;
+	border-radius: 10px;
+}
+.box3 {
+	width: 30%;
+	position: absolute;
+	z-index: 9;
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	left: 50%;
+	min-height: 28px;
+	max-height: 300px;
+	border-radius: 10px;
+}
+.list {
+	background-color: #F7F7F7;
+}
+.empty{
+	display: flex;
+	color: grey;
+	align-items: center;
+	flex-direction: column;
+	font-size: 14px;
+	padding-bottom: 80%;
+}
+.empty image{
+	width: 60px;
+	height: 60px;
+	margin-top: 50%;
+	margin-bottom: 10px;
+}
+

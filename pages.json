@@ -1,0 +1,803 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/firstPage",
+		// 	"needLogin": false,
+		// 	"style": {
+		// 		"backgroundColor": "#FAFAFA",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/login/wxLogin",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/index/index",
+			// "needLogin": true,
+			"style": {
+				"navigationBarTitleText": "首页",
+				// "backgroundColor": "#FAFAFA",
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+				// "navigationBarBackgroundColor": "#38BDF8"
+
+				// "app-plus": {
+				// 	"scrollIndicator": "none",
+				// 	"bounce": "none",
+				// 	"pullToRefresh": { // 下拉刷新配置
+				// 		"support": true, // 是否开启下拉
+				// 		"style": "circle", // 刷新样式, default 经典刷新样式, circle,新样式
+				// 		"offset": "70px" // 下拉刷新起始位置,仅对circle  样式下拉刷新控件有效
+				// 	}
+				// }
+
+			}
+		},
+
+		{
+			"path": "pages/index/my",
+			"needLogin": false,
+			"style": {
+				"navigationBarTitleText": "我的",
+				"backgroundColor": "#FAFAFA",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/news/newsDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/news/newsList",
+			"style": {
+				"navigationBarTitleText": "最新动态",
+				"enablePullDownRefresh": false
+				// "navigationBarBackgroundColor": "#38BDF8"
+			}
+		},
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/login/register",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// },
+
+
+		{
+			"path": "pages/auth/authPerson",
+			"style": {
+				"navigationBarTitleText": "个人认证",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/auth/authSchool",
+			"style": {
+				"navigationBarTitleText": "学校认证",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/auth/authCompany",
+			"style": {
+				"navigationBarTitleText": "公司认证",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/job/job",
+			"style": {
+				"navigationBarTitleText": "岗位描述",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/news/newsAdd",
+			"style": {
+				"navigationBarTitleText": "发布新闻",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		// {
+		// 	"path": "pages/job/overseasJob",
+		// 	"style": {
+		// 		"navigationBarTitleText": "海外就业",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarBackgroundColor": "#FFFFFF"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/job/training",
+		// 	"style": {
+		// 		"navigationBarTitleText": "国内就业",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarBackgroundColor": "#FFFFFF"
+		// 	}
+		// },
+		{
+			"path": "pages/index/videos",
+			"style": {
+				"navigationBarTitleText": "就业指导",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/company/company",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/company/companyList",
+			"style": {
+				"navigationBarTitleText": "优质企业",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/company/commpanyDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ykzf/ykzf",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/campus",
+			"style": {
+				"navigationBarTitleText": "精彩校园",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/addCampus",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+
+		
+		{
+			"path": "pages/index/campusDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "pages/other/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/other/agreement",
+			"style": {
+				"navigationBarTitleText": "服务协议",
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/other/complaint",
+			"style": {
+				"navigationBarTitleText": "举报",
+				"enablePullDownRefresh": false
+		
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		
+
+		{
+			"path": "pages/index/video_v1",
+			"style": {
+				"navigationBarTitleText": "就业指导",
+				"enablePullDownRefresh": false
+				// "navigationBarBackgroundColor": "#38BDF8"
+			}
+		},
+		{
+			"path": "pages/index/videoDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/ykzf/course",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ykzf/apply",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/setting/account",
+			"style": {
+				"navigationBarTitleText": "账号信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/setting/passwordCheck",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setting/editAccount",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/setting/editPassword",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/ykzf/FlyHome",
+			"style": {
+				"navigationBarTitleText": "飞行员之家",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/ykzf/Competition",
+			"style": {
+				"navigationBarTitleText": "赛事中心",
+				"enablePullDownRefresh": false
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/collect/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/ykzf/CompetitionDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ykzf/Uav",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/company/Partners/Partners",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/company/OfficialWeb/OfficialWeb",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/company/PartnerList/PartnerList",
+			"style": {
+				"navigationBarTitleText": "校企库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/company/invites/invites",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+
+			}
+		},
+		{
+			"path": "pages/company/invites/addJob",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/index/about/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/app/license",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/identitySelect/identitySelect",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/job/scJob",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "components/list/schoolList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/list/demo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/home/jobList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/home/infoList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/home/InfoJobList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		
+	],
+	"subpackages": [{
+		"root": "pages_login",
+		"pages": [{
+				"path": "login/login",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "login/register",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "login/wxLogin",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "login/psdLogin",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			}
+		]
+	}, {
+		"root": "pages_my",
+		"pages": [{
+			"path": "my/JobList",
+			"style": {
+				"navigationBarTitleText": "发布岗位",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "my/addJob",
+			"style": {
+				"navigationBarTitleText": "岗位添加",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "my/mySendJob",
+			"style": {
+				"navigationBarTitleText": "我的投递",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "my/myContract",
+			"style": {
+				"navigationBarTitleText": "我的合同",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},{
+			"path": "my/getResumes",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},{
+			"path": "my/concerned",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "my/mySpace",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},{
+			"path" : "my/defend",
+			"style" : 
+			{
+				"navigationBarTitleText" : "维权",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "my/chatted",
+			"style" : 
+			{
+				"navigationBarTitleText" : "沟通过",
+				"enablePullDownRefresh" : false
+			}
+		}]
+	}, {
+		"root": "pagesB",
+		// "name": "pack2",
+		"pages": [{
+			"path": "text/text",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}]
+	}, {
+		"root": "pages_userInfo",
+		// "name": "pack2",
+		"pages": [{
+				"path": "userInfo/userInfo",
+				"style": {
+					"navigationBarTitleText": "个人资料",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userInfo/editPhone",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "userInfo/editName",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userInfo/onlineResume",
+				"style": {
+					"navigationBarTitleText": "在线简历",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/baseResume",
+				"style": {
+					"navigationBarTitleText": "个人信息",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/addWorked",
+				"style": {
+					"navigationBarTitleText": "工作经历",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/addEdu",
+				"style": {
+					"navigationBarTitleText": "教育经历",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/addJobNeed",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/jobNeedList",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/addscJob",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "userInfo/moreInfo/moreInfo",
+				"style": {
+					"navigationBarTitleText": "资料填写",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			}, {
+				"path": "userInfo/userDetail",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false,
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "userInfo/resume",
+				"style": {
+					"navigationBarTitleText": "我的简历",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userInfo/specialist",
+				"style": {
+					"navigationBarTitleText": "专家团队",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userInfo/specialistDetail",
+				"style": {
+					"navigationBarTitleText": "专家资料",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path": "userInfo/previewResume",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			},
+			{
+				"path" : "plan",
+				"style" : 
+				{
+					"navigationBarTitleText" : "人才定制计划",
+					"enablePullDownRefresh" : false
+				}
+			},
+			{
+				"path" : "userInfo/addPlanJob",
+				"style" : 
+				{
+					"navigationBarTitleText" : "发布人才定制计划",
+					"enablePullDownRefresh" : false
+				}
+			} 
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#ECEFF1",
+		"backgroundColor": "#bfbfbf"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#38BDF8",
+		"borderStyle": "black",
+		// "backgroundColor": "white",
+
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index"
+				// "iconPath": "https://jfzp.ykfly.com/jfht/icon/home.png",
+				// "selectedIconPath": "https://jfzp.ykfly.com/jfht/icon/home1.png"
+
+			},
+			{
+				"text": "视频",
+				"pagePath": "pages/index/video_v1"
+				// "iconPath": "https://jfzp.ykfly.com/jfht/icon/video.png",
+				// "selectedIconPath": "https://jfzp.ykfly.com/jfht/icon/video1.png"
+			},
+			{
+				"text": "职圈",
+				"pagePath": "pages/index/campus"
+				// "iconPath": "https://jfzp.ykfly.com/jfht/icon/quanzi.png",
+				// "selectedIconPath": "https://jfzp.ykfly.com/jfht/icon/quanzi1.png"
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/message/message"
+				// "iconPath": "https://jfzp.ykfly.com/jfht/icon/chat.png",
+				// "selectedIconPath": "https://jfzp.ykfly.com/jfht/icon/chat1.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/index/my"
+				// "iconPath": "https://jfzp.ykfly.com/jfht/icon/my.png",
+				// "selectedIconPath": "https://jfzp.ykfly.com/jfht/icon/my1.png" 
+
+			}
+			// {
+			// 	"text": "测试",
+			// 	"pagePath": "pages/index/test"
+
+			// }
+
+		]
+
+	}
+
+
+
+}

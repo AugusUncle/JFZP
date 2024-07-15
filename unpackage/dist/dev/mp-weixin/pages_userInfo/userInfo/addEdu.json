@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "教育经历",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
+  }
+}

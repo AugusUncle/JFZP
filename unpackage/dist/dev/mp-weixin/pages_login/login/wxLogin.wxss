@@ -1,0 +1,94 @@
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.logo {
+	width: 340px;
+	height: 340px;
+	margin-top: 40%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.button {
+	margin-top: 24%;
+	width: 280px;
+	border-radius: 20px;
+	font-size: 15px;
+	background-color: #38BDF8;
+	box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1);
+	color: white;
+}
+.button1 {
+	margin-top: 5%;
+	width: 280px;
+	border-radius: 20px;
+	font-size: 15px;
+	background-color: #E7E5E4;
+	/* box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1); */
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.btn {
+	margin: 10%;
+	font-size: 15px;
+	width: 280px;
+	border-radius: 20px;
+	background-color: #38BDF8;
+	color: white;
+	/* box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.1); */
+	box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+	margin-top: 15%;
+}
+button::after {
+	border: none;
+	border-radius: 0;
+}
+.wechat {
+	width: 20px;
+	height: 20px;
+}
+.link {
+	color: #38BDF8;
+	font-size: 10px;
+}
+.checkbox {
+	/* font-size: 12px; */
+	-webkit-transform: scale(0.6);
+	        transform: scale(0.6);
+	/* 放大复选框 */
+	/* margin-right: 8px; */
+	/* 调整与文本之间的间距 */
+}
+.uni-list {
+	margin-top: 5%;
+	/* width: 100vw; */
+}
+.text {
+	font-size: 12px;
+	color: gray;
+	position: absolute;
+	left: 10px;
+	margin-bottom: 20%;
+}
+.loginType {
+	position: absolute;
+	width: 60%;
+	top: 90%;
+	left: 20%;
+}
+.loginType_1 {
+	display: flex;
+	justify-content: center;
+}
+.login-icon {
+	width: 25px;
+	height: 25px;
+	margin: 15px;
+}
+

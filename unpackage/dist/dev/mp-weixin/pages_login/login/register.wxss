@@ -1,0 +1,41 @@
+
+.pag {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	width: 90%;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 50px;
+}
+.input {
+	width: 80%;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 28rpx;
+	padding-left: 4rpx;
+	margin-top: 30px;
+}
+.text {
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 10px;
+}
+.regBtn {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.tishi {
+	font-size: 20rpx;
+	color: red;
+}
+

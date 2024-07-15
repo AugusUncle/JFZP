@@ -1,0 +1,27 @@
+
+.labels {
+	display: flex;
+	padding: 1vh 0;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.label {
+	background-color: #F4F6F6;
+	color: grey;
+	padding: 1vw 0;
+	border-radius: 6px;
+	width: 28vw;
+	margin-bottom: 20rpx;
+	text-align: center;
+}
+.active {
+	background-color: #38BDF8;
+	color: white;
+}
+button {
+	background-color: #38BDF8;
+}
+button::after {
+	border: none;
+}
+

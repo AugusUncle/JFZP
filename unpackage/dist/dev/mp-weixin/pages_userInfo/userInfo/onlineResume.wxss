@@ -1,0 +1,18 @@
+
+.page {
+	background-color: #FFFFFF;
+	padding: 4%;
+}
+.longText {
+	font-size: 14px;
+	color: grey;
+	margin-bottom: 2vh;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.popup-content {
+	padding: 2%;
+}
+

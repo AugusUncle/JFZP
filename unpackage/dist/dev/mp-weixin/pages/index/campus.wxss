@@ -1,0 +1,119 @@
+
+.page {
+	/* padding: 0 2% 0 0; */
+
+	/* background-image: url('https://admin.ykfly.com/jfht/bg01.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; */
+}
+.box {
+	display: flex;
+	/* align-items: center; */
+	justify-items: center;
+	flex-direction: column;
+	background-color: white;
+	padding: 5% 2% 0 4%;
+	margin-bottom: 1%;
+}
+.box1 {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	flex-direction: row;
+}
+.touxiang {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.name {
+	margin-left: 6px;
+}
+.content {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	width: 90%;
+	margin-top: 4%;
+	font-size: small;
+}
+.grid-container {
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border: none;
+}
+uni-grid-item {
+	text-align: center;
+}
+
+/* .uni-grid {
+	border-radius: 20px;
+	overflow: hidden;
+} */
+.img {
+
+	width: 100%;
+	height: 100%;
+}
+.tabs {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.sticky {
+	padding: 0;
+	margin: 0;
+}
+.guanzhu {
+	border-radius: 5px;
+	border: none;
+	position: absolute;
+	right: 4%;
+}
+button::after {
+	border: none;
+}
+.comment {
+	position: absolute;
+	right: 22%;
+}
+.like {
+	margin: 3% 0 3% 14%;
+	position: absolute;
+	right: 6%;
+}
+.share {
+	margin: 2% 0 3% 2%;
+	color: #57534E;
+}
+.text {
+	font-size: 12px;
+	color: #57534E;
+}
+.top_1 {
+	margin-top: 2%;
+}
+.dataTime {
+	font-size: 10px;
+	color: gray;
+	margin-left: 6px;
+}
+.name_time {
+	display: flex;
+	flex-direction: column;
+}
+.add {
+	position: fixed;
+	bottom: 6%;
+	right: 2%;
+	z-index: 999;
+	width: 60px;
+	height: 60px;
+}
+.u-safe-area-inset-bottom {
+    padding-bottom: 0 !important;
+    /* padding-bottom: env(safe-area-inset-bottom); */
+}
+

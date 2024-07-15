@@ -1,0 +1,29 @@
+
+button {
+	background-color: #38bdf8;
+	color: white;
+}
+.saveBtn {
+	position: absolute;
+	bottom: 0;
+	width: 96vw;
+	background-color: white;
+	padding: 3vw 2vw 8vw 2vw;
+}
+.texts {
+	width: 74vw;
+	background-color: white;
+	padding: 5px;
+	border-radius: 6px;
+	border: 1px solid lightgray;
+}
+.title {
+	border: #39BDF7 1px solid;
+	border-radius: 3px;
+	margin: 1vh 1vw;
+	font-size: 10px;
+	color: #39BDF7;
+	padding: 1px;
+	flex-wrap: wrap;
+}
+

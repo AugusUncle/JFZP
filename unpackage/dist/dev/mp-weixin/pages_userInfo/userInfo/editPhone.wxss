@@ -1,0 +1,50 @@
+
+.view-title {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 40%;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+.view-content {
+	position: absolute;
+	top: 40%;
+	background-color: #FAFAFA;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.input-container {
+	display: flex;
+	align-items: center;
+	width: 85%;
+}
+.input-container input {
+	background: #fafafa;
+	height: 50px;
+	width: 50%;
+	font-size: 14px;
+}
+.input-container button {
+	position: absolute;
+	right: 5%;
+	border: none;
+	background-color: #38BDF8;
+	color: white;
+	cursor: pointer;
+}
+.name {
+	width: 25%;
+}
+.btn-submit {
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	bottom: 20%;
+	color: white;
+	background-color: #38BDF8;
+}
+

@@ -1,0 +1,10 @@
+
+.uni-file-picker {
+	box-sizing: border-box;
+	overflow: hidden;
+	width: auto !important;
+	flex: 1;
+	position: absolute !important;
+	right: 4% !important;
+}
+

@@ -1,0 +1,23 @@
+
+.page {
+	padding: 4%;
+}
+.pic {
+	margin-top: 30%;
+}
+.mini-btn {
+	position: absolute;
+	right: 5%;
+	margin-top: 5%;
+}
+button {
+	background: "#38BDF8";
+	background-color: deepskyblue;
+	color: azure;
+	border-radius: 6px;
+}
+.example-body {
+	padding: 10px;
+	padding-top: 0;
+}
+

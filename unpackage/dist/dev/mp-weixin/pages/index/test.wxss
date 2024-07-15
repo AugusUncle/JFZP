@@ -1,0 +1,24 @@
+
+.input-wrapper.data-v-25722d30 {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+input.data-v-25722d30 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.picker.data-v-25722d30 {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+  background-color: #fff;
+}
+

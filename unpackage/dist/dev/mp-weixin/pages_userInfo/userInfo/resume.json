@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的简历",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-swipe-action": "/uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker"
+  }
+}

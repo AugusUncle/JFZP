@@ -1,0 +1,11 @@
+
+.icon {
+	position: fixed;
+	top: 6%;
+	left: 4%;
+	color: #777;
+	z-index: 10;
+}
+
+
+

@@ -1,0 +1,188 @@
+
+.page {
+	/* height: 100vh; */
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 2%;
+	margin-bottom: 10px;
+}
+.box1 {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+}
+.box1_1 {
+	margin-left: 12px;
+}
+.box2 {
+	background-color: white;
+	display: flex;
+	/* align-items: center; */
+	flex-direction: row;
+	margin: 2%;
+	vertical-align: top;
+	/* 顶部对齐 */
+}
+.touxiang {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.touxiang1 {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	position: relative;
+	top: 8px;
+}
+.name {
+	color: gray;
+}
+.name1 {
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+.guanzhu {
+	border: none;
+	position: absolute;
+	right: 4%;
+}
+.datatime {
+	font-size: 12px;
+	color: gray;
+	/* margin-left: 2%; */
+}
+.content {
+	font-size: 14px;
+	margin: 6% 0 4% 0;
+	color: #404040;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+}
+.img {
+	width: 100%;
+	height: 100%;
+}
+.section {
+	padding-bottom: 25px;
+}
+.line {
+
+	/* margin: 10px 0 5px 0; */
+	/* 设置横线的宽度为100% */
+	border-bottom: 1px solid #ECEFF1;
+	/* 设置横线的颜色和样式 */
+	width: 280px;
+}
+.btn {
+	width: 34%;
+	height: 76%;
+	font-size: 14px;
+	background-color: white;
+	color: #404040;
+	/* border: none;
+	outline: none; */
+	border-radius: 0;
+	/* margin-bottom: 10%; */
+}
+.btn1 {
+	width: 34%;
+	height: 76%;
+	font-size: 14px;
+	background-color: lightgray;
+	color: #404040;
+	border: none;
+	outline: none;
+	border-radius: 0;
+	/* margin-bottom: 10%; */
+}
+button::after {
+	border: none;
+	border-radius: 0;
+	padding: 0;
+}
+.btn_comm {
+	width: 70px;
+	height: 31.58px;
+	font-size: 14px;
+	margin-left: 5px;
+	background-color: #38BDF8;
+	border-radius: 20px;
+	color: white;
+}
+.inp {
+	padding: 5px;
+	width: 99%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	background-color: #ccc;
+	/* display: flex; */
+}
+.commentInfo {
+	background-color: white;
+	position: absolute;
+	bottom: 4%;
+}
+.container {
+	position: fixed;
+	bottom: 0%;
+	padding: 0 2% 0 2%;
+	width: 96%;
+	display: flex;
+	align-items: center;
+	/* background-color: white; */
+	margin-bottom:6px
+}
+.inp_comm {
+	padding: 1% 1% 1% 4%;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+.tabbar {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-top: 1%;
+	padding-bottom: 10px;
+	background-color: white;
+	/* margin-bottom: 5%; */
+}
+.separator {
+	/* display: flex; */
+	width: 1px;
+	height: 15px;
+	/* 竖线的高度 */
+	background-color: #ccc;
+	/* 竖线的颜色 */
+}
+.uni-grid {
+	margin-bottom: 5%;
+}
+
+/* button {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    line-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-left: 4px;
+    padding-right: 4px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+} */
+

@@ -1,0 +1,47 @@
+
+.inp {
+	flex: 1;
+	border: none;
+	outline: none;
+	padding: 0;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.page {
+	padding: 2%;
+	background-color: #FFFFFF;
+	height: 100vh;
+}
+.inp::-webkit-input-placeholder {
+	color: #E5E5E5;
+}
+.inp::placeholder {
+	color: #E5E5E5;
+}
+.box {
+	display: flex;
+	align-items: ;
+	border-bottom: 1rpx solid #E5E5E5;
+	width: 100%;
+}
+.icon {
+	color: #777;
+	margin-left: 4%;
+	margin-right: 10%;
+	margin-top: 20px;
+	font-size: 16px;
+}
+.btn {
+	margin-top: 10%;
+	width: 80%;
+	color: white;
+	background-color: #38BDF8;
+	border-radius: 10px;
+}
+.btn1 {
+	background-color: #0EA5E9;
+	/* 点击后的颜色 */
+	color: #E5E5E5;
+	/* 点击后的文字颜色 */
+}
+

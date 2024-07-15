@@ -1,0 +1,33 @@
+
+.page {
+	padding: 2%;
+	height: 100%;
+}
+.page1 {
+	padding: 2%;
+	background: white;
+	border-radius: 5px;
+	display: flex;
+	/* justify-items: center; */
+	flex-direction: row;
+	margin-top: 2%;
+}
+.page2 {
+	padding: 3%;
+	margin-left: 3%;
+	/* background: yellowgreen; */
+}
+.pic {
+	width: 140rpx;
+	height: 160rpx;
+	/* position: absolute; */
+	right: 5px;
+}
+.text2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	margin-top: 3%;
+}
+

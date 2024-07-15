@@ -1,0 +1,1 @@
+<view class="page"><uni-icons class="icon" vue-id="4529eda6-1" type="back" size="30" data-event-opts="{{[['^tap',[['back']]]]}}" bind:tap="__e" bind:__l="__l"></uni-icons><web-view src="https://ykfly.com/dj/privacy.html"></web-view></view>

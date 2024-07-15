@@ -1,0 +1,91 @@
+
+.card1 {
+	width: 96%;
+	height: 30%;
+	background: white;
+	display: flex;
+	margin: auto;
+	margin-top: 2%;
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: 0 4px 4px 0 #E5E7EB;
+	padding: 5px;
+}
+.card2 {
+	width: 96%;
+	height: 30%;
+	display: flex;
+	/* align-items: center; */
+	justify-items: center;
+	margin-top: 2%;
+	flex-direction: row;
+}
+.text1 {
+	margin: 0 0 0 15px;
+	font-size: 18px;
+	width: 80%;
+}
+.text2 {
+	margin: 5px 0 0 15px;
+	font-size: 13px;
+	color: #737373;
+}
+.text3 {
+	margin: 5px 0 10px 15px;
+	font-size: 13px;
+	color: #737373;
+}
+.text6 {
+	margin: 5px 0 10px 50px;
+	font-size: 13px;
+	color: #737373;
+}
+.text4 {
+	font-size: 13px;
+	color: #38BDF8;
+	position: absolute;
+	right: 5%;
+}
+.text5 {
+	font-size: 13px;
+	color: #737373;
+	position: absolute;
+	margin-top: 5px;
+	right: 20px;
+}
+.nav-bar {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.nav-bar text {
+	color: #ccc;
+	/* 默认字体颜色为浅灰色 */
+}
+.nav-bar text.selected {
+	color: #000;
+	/* 选中菜单字体为黑色 */
+}
+.underline {
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	background-color: #000;
+	/* 下划线颜色 */
+	transition: left 0.3s ease;
+	/* 添加过渡效果 */
+}
+.btn {
+	margin-top: 10%;
+	width: 80%;
+	color: white;
+	background-color: #38BDF8;
+	border-radius: 10px;
+}
+.btn1 {
+	background-color: #0EA5E9;
+	/* 点击后的颜色 */
+	color: #E5E5E5;
+	/* 点击后的文字颜色 */
+}
+

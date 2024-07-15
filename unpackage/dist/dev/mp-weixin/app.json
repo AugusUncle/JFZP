@@ -1,0 +1,151 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/my",
+    "pages/news/newsDetail",
+    "pages/news/newsList",
+    "pages/auth/authPerson",
+    "pages/auth/authSchool",
+    "pages/auth/authCompany",
+    "pages/job/job",
+    "pages/news/newsAdd",
+    "pages/index/videos",
+    "pages/setting/setting",
+    "pages/company/company",
+    "pages/company/companyList",
+    "pages/company/commpanyDetail",
+    "pages/ykzf/ykzf",
+    "pages/index/campus",
+    "pages/index/addCampus",
+    "pages/message/message",
+    "pages/index/campusDetail",
+    "pages/other/privacy",
+    "pages/other/agreement",
+    "pages/other/complaint",
+    "pages/message/chat",
+    "pages/index/video_v1",
+    "pages/index/videoDetail",
+    "pages/ykzf/course",
+    "pages/ykzf/apply",
+    "pages/index/test",
+    "pages/setting/account",
+    "pages/setting/passwordCheck",
+    "pages/setting/editAccount",
+    "pages/setting/editPassword",
+    "pages/ykzf/FlyHome",
+    "pages/ykzf/Competition",
+    "pages/collect/collection",
+    "pages/ykzf/CompetitionDetail",
+    "pages/ykzf/Uav",
+    "pages/company/Partners/Partners",
+    "pages/company/OfficialWeb/OfficialWeb",
+    "pages/company/PartnerList/PartnerList",
+    "pages/company/invites/invites",
+    "pages/company/invites/addJob",
+    "pages/index/about/about",
+    "pages/app/license",
+    "pages/index/identitySelect/identitySelect",
+    "pages/index/userInfo/userInfo",
+    "pages/job/scJob",
+    "components/list/schoolList",
+    "components/list/demo",
+    "components/home/jobList",
+    "components/home/infoList",
+    "components/home/InfoJobList",
+    "pages/index/search"
+  ],
+  "subPackages": [
+    {
+      "root": "pages_login",
+      "pages": [
+        "login/login",
+        "login/register",
+        "login/wxLogin",
+        "login/psdLogin"
+      ]
+    },
+    {
+      "root": "pages_my",
+      "pages": [
+        "my/JobList",
+        "my/addJob",
+        "my/mySendJob",
+        "my/myContract",
+        "my/getResumes",
+        "my/concerned",
+        "my/mySpace",
+        "my/defend",
+        "my/chatted"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "text/text"
+      ]
+    },
+    {
+      "root": "pages_userInfo",
+      "pages": [
+        "userInfo/userInfo",
+        "userInfo/editPhone",
+        "userInfo/editName",
+        "userInfo/onlineResume",
+        "userInfo/baseResume",
+        "userInfo/addWorked",
+        "userInfo/addEdu",
+        "userInfo/addJobNeed",
+        "userInfo/jobNeedList",
+        "userInfo/addscJob",
+        "userInfo/moreInfo/moreInfo",
+        "userInfo/userDetail",
+        "userInfo/resume",
+        "userInfo/specialist",
+        "userInfo/specialistDetail",
+        "userInfo/previewResume",
+        "plan",
+        "userInfo/addPlanJob"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#ECEFF1",
+    "backgroundColor": "#bfbfbf"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#38BDF8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "视频",
+        "pagePath": "pages/index/video_v1"
+      },
+      {
+        "text": "职圈",
+        "pagePath": "pages/index/campus"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/index/my"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于为您匹配附进数据"
+    }
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

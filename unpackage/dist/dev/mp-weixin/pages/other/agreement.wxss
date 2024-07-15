@@ -1,0 +1,16 @@
+
+.page{
+	padding: 2%;
+	font-size: 14px;
+	color: gray;
+}
+.icon {
+	position: fixed;
+	top: 6%;
+	left: 4%;
+	color: #777;
+	z-index: 10;
+}
+
+
+

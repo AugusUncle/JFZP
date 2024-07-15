@@ -1,0 +1,38 @@
+
+.page {
+	padding: 2%;
+}
+.section {
+	margin-top: 3px;
+	font-size: 16px;
+}
+.box {
+	padding: 2%;
+	background-color: white;
+}
+.scroll-view {
+	display: flex;
+	flex-direction: row;
+	/* margin-top: 1%; */
+}
+.text1 {
+	position: absolute;
+	left: 25%;
+}
+.text2 {
+	position: absolute;
+	left: 23%;
+}
+.text3 {
+	position: absolute;
+	right: 10%;
+	color: deepskyblue;
+}
+.line {
+
+	margin: 15px 0 18px 0;
+	/* 设置横线的宽度为100% */
+	border-bottom: 1px solid #ECEFF1;
+	/* 设置横线的颜色和样式 */
+}
+

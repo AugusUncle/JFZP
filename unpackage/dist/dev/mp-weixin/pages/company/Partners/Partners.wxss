@@ -1,0 +1,97 @@
+
+.page {
+	padding: 4%;
+	height: 100vh;
+	background-image: url('https://jfzp.ykfly.com/jfht/app/bg-school.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+}
+.logo {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+.name {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 3%;
+	margin-top: 70px;
+}
+.name text {
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 2%;
+}
+.gw {
+	background-color: white;
+	border-radius: 20px 0 0 20px;
+	padding: 5px 0 5px 10px;
+	position: absolute;
+	right: 0;
+	color: #1296db;
+	display: flex;
+	flex-direction: row;
+	width: 60px;
+	align-items: center;
+}
+.gw text {
+	font-size: 12px;
+	font-weight: 500;
+}
+.pic1 {
+	display: flex;
+	flex-direction: row;
+	width: 64%;
+}
+.img1 {
+	border-radius: 10px 0 0 10px;
+	width: 61.5vw;
+	height: 40.5vw;
+}
+.img2 {
+	border-radius: 0 10px 0 0;
+	width: 30vw;
+	height: 20vw;
+	margin-left: 0.5vw;
+}
+.img3 {
+	border-radius: 0 0 10px 0;
+	width: 30vw;
+	height: 20vw;
+	margin: 0.5vw 0 0 0.5vw;
+}
+.pic2 {
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+}
+swiper {
+	height: 25px;
+}
+.news {
+	border-bottom: 0.6px solid #e9e9eb;
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+}
+.news image {
+	width: 15vw;
+	height: 6vw;
+}
+.baike {
+	margin: 5% 0;
+	/* -webkit-line-clamp: 4;
+	-webkit-box-orient: vertical; */
+}
+.title {
+	border: #39BDF7 1px solid;
+	border-radius: 3px;
+	margin: 1vh 1vw;
+	font-size: 10px;
+	color: #39BDF7;
+	padding: 1px;
+	word-wrap: break-word;
+}
+

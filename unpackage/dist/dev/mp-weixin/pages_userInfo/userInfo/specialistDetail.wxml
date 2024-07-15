@@ -1,0 +1,1 @@
+<view class="page"><view class="box"><image class="img" src="{{specialist.headPic}}"></image></view><view class="box"><view class="title">{{specialist.name}}</view></view><view><mp-html vue-id="673ad14a-1" content="{{specialist.introduction}}" bind:__l="__l"></mp-html></view></view>

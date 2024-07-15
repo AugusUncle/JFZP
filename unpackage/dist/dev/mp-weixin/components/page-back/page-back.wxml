@@ -1,0 +1,1 @@
+<view><view class="back"><uni-icons class="icon" vue-id="40e8fe36-1" type="back" size="30" data-event-opts="{{[['^tap',[['back']]]]}}" bind:tap="__e" bind:__l="__l"></uni-icons></view></view>

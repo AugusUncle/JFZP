@@ -1,0 +1,25 @@
+
+.video {
+	width: 100%;
+}
+.tabs-view {
+	/* padding: 5px 0 5px 20px; */
+	height: 80vh;
+	background-color: white;
+}
+.comment-inp {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	padding: 6px 0 40px 0;
+}
+.inp {
+
+	border-radius: 20px;
+	border: 1px solid lightgray;
+	height: 30px;
+	padding-left: 5px;
+	margin-bottom: 6px;
+}
+

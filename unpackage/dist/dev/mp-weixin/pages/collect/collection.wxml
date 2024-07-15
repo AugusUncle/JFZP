@@ -1,0 +1,1 @@
+<view><view>{{shopList}}</view><view hidden="{{!($root.g0<=0)}}" class="empty"><image src="../../static/icon_cb/kk.png"></image><view>还没有收藏，可以去主页和精彩校园看看哦~</view></view></view>
